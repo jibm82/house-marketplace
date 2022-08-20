@@ -29,7 +29,7 @@ function Navbar() {
           </li>
           <li className="navbarListItem" onClick={() => navigate("/offers")}>
             <OfferIcon fill={routeFill("/offers")} width="36px" height="36px"/>
-            <p className={routeNameClass("/offers")}>Offer</p>
+            <p className={routeNameClass("/offers")}>Offers</p>
           </li>
           <li className="navbarListItem" onClick={() => navigate("/profile")}>
             <PersonOutlineIcon fill={routeFill("/profile")} width="36px" height="36px"/>
