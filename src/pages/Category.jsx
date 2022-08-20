@@ -52,7 +52,7 @@ function Category() {
       {isLoading ? <Spinner/> : listings && listings.length > 0 ? (
         <>
           <main>
-            <ul className="categoryList">
+            <ul className="categoryListings">
               {listings.map((listing) => (
                 <ListingItem key={listing.id} listing={listing.data} id={listing.id} />
               ))}
